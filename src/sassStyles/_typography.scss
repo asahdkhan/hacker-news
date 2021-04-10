@@ -1,0 +1,40 @@
+/* Typography Styles */
+
+@import "../sassStyles/variables";
+
+h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+}
+h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: $textColor;
+}
+
+h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: $textColor;
+  margin: -4px;
+}
+
+h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 11px;
+  color: $textColorLight;
+}
